@@ -1,11 +1,11 @@
-package ru.khorolskii.server;
+package ru.khorolskii.front;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalculatorServerApp {
+public class CalculatorFrontApp {
     public static void main(String[] args) {
-        SpringApplication.run(CalculatorServerApp.class, args);
+        SpringApplication.run(CalculatorFrontApp.class, args);
     }
 }
